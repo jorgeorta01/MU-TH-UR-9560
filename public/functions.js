@@ -1,4 +1,3 @@
-
 const wait = (ms = 0) => new Promise(resolve => setTimeout(resolve, ms))
 
 // Write text to a target element with a specified delay in ms
@@ -122,3 +121,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   const output = document.getElementById('output')
   document.addEventListener('keydown', (e) => handleKeypress(e, input, output))
 })
+
+window.addEventListener('load', function() {
+  setTimeout(function() {
+    document.getElementById('startup-buttons').style.display = 'flex';
+  }, 500); // 500ms delay after load
+});
