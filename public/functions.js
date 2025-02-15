@@ -2,7 +2,7 @@
 const wait = (ms = 0) => new Promise(resolve => setTimeout(resolve, ms))
 
 // Write text to a target element with a specified delay in ms
-function writeText(target, content, delay = 5)
+function writeText(target, content, delay = 3)
 {
   // Loop through array of content characters
   return new Promise((resolve) => {
