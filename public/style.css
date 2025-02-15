@@ -75,16 +75,36 @@ pre {
 #startup-container {
 
   border: 2px solid hsl(37, 100%, 50%);
-}
+} */
 
-#ortalink-container {
+/* #ortalink-container {
 
 
   border: 2px solid hsl(154 84% 70%); 
-}
+} */
 
-#ascii-container {
+/* #ascii-container {
 
 
   border: 2px solid hsl(154 84% 70%);
 } */
+
+#startup-buttons {
+  margin-top: 10px;
+  /* border: 2px solid hsl(37, 100%, 50%); */
+  display: flex; /* Add flex container */
+  justify-content: space-between; /* Distribute space between items */
+}
+
+#enter-button {
+  flex-grow: 1;
+  margin: 0 5px;
+  display: flex; /* Add flex to button container */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+#enter-text {
+  text-align: center; /* Ensure text is centered */
+}
+
