@@ -1,4 +1,4 @@
-// Add a specified delay in miliseconds
+
 const wait = (ms = 0) => new Promise(resolve => setTimeout(resolve, ms))
 
 // Write text to a target element with a specified delay in ms

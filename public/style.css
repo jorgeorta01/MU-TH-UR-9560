@@ -14,6 +14,8 @@ pre {
   margin-bottom: 0;
   display: table;
   width: 100%;
+  overflow: auto;
+  white-space: pre-wrap;
 }
 
 #glare {
@@ -64,3 +66,25 @@ pre {
 #ortalink {
   display: none; /* Initially hide the ortalink element */
 }
+
+#asciiText, #ortalink {
+  cursor: default; /* Set cursor to default */
+}
+
+/* 
+#startup-container {
+
+  border: 2px solid hsl(37, 100%, 50%);
+}
+
+#ortalink-container {
+
+
+  border: 2px solid hsl(154 84% 70%); 
+}
+
+#ascii-container {
+
+
+  border: 2px solid hsl(154 84% 70%);
+} */
